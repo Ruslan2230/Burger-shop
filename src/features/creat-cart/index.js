@@ -1,20 +1,20 @@
 import React from 'react'
-import ProductListItem from './product-list-item'
+import CreatCartItem from './ingr-list'
 import { connect } from 'react-redux'
 
 
 
-function ProductList (props) {
+function CreatCart (props) {
     return <div className='product-list'>
         {
             props.products.map( product =>
-            <ProductListItem
-                product={product}
-                addToCart={props.addToCart }
-                removeFromCart={props.removeFromCart }
-                cartItem={props.cart.filter( cartItem => cartItem.id === product.id)[0]}
-            />)
-            }
+                <CreatCartItem
+                    product={product}
+                    addToCart={props.addToCart }
+                    removeFromCart={props.removeFromCart }
+                    cartItem={props.cart.filter( cartItem => cartItem.id === product.id)[0]}
+                />)
+        }
     </div>
 }
 
@@ -35,4 +35,7 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProductList)
+export default connect(mapStateToProps, mapDispatchToProps)(CreatCart)
+
+
+

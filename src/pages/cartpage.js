@@ -3,7 +3,7 @@ import Cart from '../features/cart'
 
 export default function Cartpage (props) {
     return <div>
-        <h2>Мій Бургер</h2>
+        <h2>Мої Бургери</h2>
         <Cart />
     </div>
 }

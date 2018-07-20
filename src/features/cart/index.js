@@ -2,39 +2,39 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 
-// function sort(item) {
-//     return item.sort((a,b) => a.id < b.id)
-// }
+
+function sort(item) {
+    return item.sort((a,b) => a.id < b.id)
+}
 
 
 function Cart(props) {
-    return <table>
+    return (<table>
         <thead>
         <tr>
-            <th>Item</th>
-            <th>Quantity</th>
-
+            <th>Список</th>
+            <th>Кількість</th>
         </tr>
         </thead>
         <tbody>
-        {/*{*/}
-            {/*sort(props.cart).map(item =>*/}
-                {/*<tr>*/}
-                    {/*<td>{item.name}</td>*/}
-                    {/*<td>{item.quantity}</td>*/}
-                    {/*<td>*/}
-                        {/*<button onClick={() => props.addToCart(item)}> +</button>*/}
-                        {/*<button onClick={() => props.removeFromCart(item)}> -</button>*/}
-                    {/*</td>*/}
-                    {/*<td>*/}
-                        {/*<button onClick={() => props.removeAllFromCart(item)}>Remove cart</button>*/}
-                    {/*</td>*/}
+        {
+            sort(props.cart).map(item =>
+                <tr>
+                    <td>{item.name}</td>
+                    <td>{item.quantity}</td>
+                    <td>
+                        <button onClick={() => props.addToCart(item)}> + </button>
+                        <button onClick={() => props.removeFromCart(item)}> - </button>
+                    </td>
+                    <td>
+                        <button onClick={() => props.removeAllFromCart(item)}>Видалити карточку</button>
+                    </td>
 
-                {/*</tr>*/}
-            {/*)*/}
-        {/*}*/}
+                </tr>
+            )
+        }
         </tbody>
-    </table>
+    </table>)
 }
 
 function mapStateToProps(state) {

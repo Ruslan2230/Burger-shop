@@ -1,0 +1,66 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Помидор",
+      "image": "tomat.png",
+      "price": 15.90
+    },
+
+    {
+      "id": 2,
+      "name": "Огирок",
+      "image": "ogirok.png",
+      "price": 12
+    },
+
+    {
+      "id": 3,
+      "name": "Цибуля",
+      "image": "original.png",
+      "price": 13
+    },
+
+    {
+      "id": 4,
+      "name": "Капуста",
+      "image": "kapusta.png",
+      "price": 20
+    },
+
+    {
+      "id": 5,
+      "name": "Морква",
+      "image": "mork.png",
+      "price": 22.90
+    },
+
+    {
+      "id": 6,
+      "name": "Сир",
+      "image": "Cheese.png",
+      "price": 9
+    },
+
+    {
+      "id": 7,
+      "name": "Укроп",
+      "image": "ukrop.png",
+      "price": 18
+    },
+
+    {
+      "id": 8,
+      "name": "Гриби",
+      "image": "Grubu.png",
+      "price": 7
+    },
+
+    {
+      "id": 9,
+      "name": "Перец",
+      "image": "pepper.png",
+      "price": 7
+    }
+  ]
+}

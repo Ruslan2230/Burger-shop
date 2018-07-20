@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Бургер з куркою",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "description": "Куриная котлета в сухарях панко, сыр чеддер, тигровая креветка, томат, огурец, салат ромэн, соус Tartar, картофель фри, пикантный соус",
       "keywords": [
         "stuffed", "plush", "groot", "guardians of the galaxy"
       ],
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "name": "Бургер подвійний",
-      "description": "Buzz Lightyear is a favorite of youngsters. He has a ray-gun, wings that can be retracted or extended on the push of a button, and a grin that could make any alien get a chill up their spine - should they have one.",
+      "description": "Куриная котлета в сухарях панко, сыр чеддер, тигровая креветка, томат, огурец, салат ромэн, соус Tartar, картофель фри, пикантный соус",
       "keywords": [
         "action figure", "toy story", "posable", "requires batteries"
       ],
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "Бургер з рибою",
-      "description": "Dave is a two-eyed and medium-sized minion with nice combed hair. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
+      "description": "Куриная котлета в сухарях панко, сыр чеддер, тигровая креветка, томат, огурец, салат ромэн, соус Tartar, картофель фри, пикантный соус",
       "keywords": [
         "stuffed", "plush", "minions", "Despicable Me"
       ],
@@ -42,7 +42,7 @@
     {
       "id": 4,
       "name": "Бургер з беконом",
-      "description": "Kevin is a tall, two-eyed minion with sprout cut hair and is usually seen wearing his golf apparel. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
+      "description": "Куриная котлета в сухарях панко, сыр чеддер, тигровая креветка, томат, огурец, салат ромэн, соус Tartar, картофель фри, пикантный соус",
       "keywords": [
         "stuffed", "plush", "minions", "Despicable Me"
       ],
@@ -55,7 +55,7 @@
     {
       "id": 5,
       "name": "Бургер з телятиною",
-      "description": "Bob is a short and bald minion with multi-colored eyes (green and brown). He often carries around a teddy bear that he owns called Tim, which is brown with yellow buttoned eyes. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
+      "description": "Куриная котлета в сухарях панко, сыр чеддер, тигровая креветка, томат, огурец, салат ромэн, соус Tartar, картофель фри, пикантный соус",
       "keywords": [
         "stuffed", "plush", "minions", "Despicable Me"
       ],
@@ -64,6 +64,19 @@
         "0", "10"
       ],
       "price": 38.20
+    },
+    {
+      "id": 6,
+      "name": "Бургер з телятиною",
+      "description":"Куриная котлета в сухарях панко, сыр чеддер, тигровая креветка, томат, огурец, салат ромэн, соус Tartar, картофель фри, пикантный соус",
+      "keywords": [
+        "stuffed", "plush", "minions", "Despicable Me"
+      ],
+      "image": "burger6.png",
+      "age": [
+        "0", "10"
+      ],
+      "price": 50.20
     }
   ]
 }
